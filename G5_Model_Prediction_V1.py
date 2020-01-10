@@ -120,7 +120,7 @@ cohen_kappa_score(np.round(prediction_random_regressor["Label"]),Y_test)
 
 
 #Separation en set de train et test:
-X_train, X_test, Y_train, Y_test = train_test_split(data.drop(["Seat_Comfort"], axis = 1), data["Seat_Comfort"],
+X_train, X_test, Y_train, Y_test = train_test_split(data.drop(["Food_And_Beverages"], axis = 1), data["Food_And_Beverages"],
                                                     test_size=0.30, random_state=42)
 
 
